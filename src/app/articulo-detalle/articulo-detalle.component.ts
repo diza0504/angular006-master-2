@@ -9,8 +9,8 @@ import { Articulo } from '../models/articulo.interface';
 })
 export class ArticuloDetalleComponent implements OnInit {
 //variables
-nombre?:string;
-precio?:number;
+//nombre?:string;
+//precio?:number;
 articulo:Articulo;
   // pasa un parametro utilizando:inyeccion de dependencias
   constructor(private ruta: ActivatedRoute) { }
